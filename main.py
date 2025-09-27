@@ -22,7 +22,7 @@ year = st.sidebar.number_input(
 
 # --- Sidebar: GP dropdown (only past events) ---
 schedule = fastf1.get_event_schedule(year)
-schedule = schedule[schedule['EventName'] != 'Preseason Testing']
+schedule = schedule[schedule['EventName'] != 'Pre-Season Testing']
 
 today = datetime.datetime.now().date()
 completed_events = schedule[schedule['EventDate'].dt.date <= today]

@@ -83,7 +83,7 @@ Then open the provided localhost URL in your browser.
 
 ## 📸 Demo Screenshots
 
-![Telemetry comparison plot](demo.png)
+![Telemetry comparison plot](image.png)
 
 -----
 

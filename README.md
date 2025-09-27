@@ -46,7 +46,7 @@ It uses the [FastF1](https://theoehrly.github.io/Fast-F1/) Python library to fet
 
 1.  Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/f1-telemetry.git
+    git clone https://github.com/Prithyangaa/f1-telemetry.git
     cd f1-telemetry
     ```
 2.  Create a virtual environment (recommended):

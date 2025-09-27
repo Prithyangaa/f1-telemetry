@@ -9,7 +9,7 @@ from utils import setup
 # Setup cache
 setup()
 
-st.title("🏎️ F1 Comparative Telemetry Tool")
+st.title("F1 Comparative Telemetry Tool")
 
 # --- Sidebar: Season ---
 current_year = datetime.datetime.now().year
@@ -53,7 +53,7 @@ for drv in session.drivers:
 
 channels = st.sidebar.multiselect(
     "Telemetry Channels",
-    ["Speed", "Throttle", "Brake", "nGear", "DRS", "RPM", "Steer"],
+    ["Speed", "Throttle", "Brake", "nGear", "DRS", "RPM"],
     default=["Speed", "Throttle", "Brake"]
 )
 

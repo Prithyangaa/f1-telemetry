@@ -1,3 +1,4 @@
+import os
 import fastf1
 from fastf1 import plotting
 import matplotlib
